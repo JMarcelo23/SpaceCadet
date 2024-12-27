@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Você está convidado!</h1>
+        <p class="details">Junte-se a nós para celebrar este momento especial.</p>
+        <div class="info">
+            <p><strong>Data:</strong> 20 de Janeiro de 2024</p>
+            <p><strong>Hora:</strong> 19:00</p>
+            <p><strong>Local:</strong> Salão de Festas do Clube X</p>
+        </div>
+        <button onclick="confirmarPresenca()">Confirmar Presença</button>
+        <p id="confirmacao" style="display: none; margin-top: 15px;">Presença confirmada! Obrigado.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
